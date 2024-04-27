@@ -1,0 +1,16 @@
+{
+  "name": "Josh",              //klucz to "name", wartość "Josh", typ wartości - string,
+  "weight": 175,               //klucz to "weight", wartość 175, typ wartości - number,
+  "age": 30,                   //klucz to "age", wartość 30, typ wartości - number,
+  "eyecolor":"brown",          //klucz to "eyecolor", wartość "brown", typ wartości - 
+  "isHappy":true,              //klucz to "isHappy", wartość true, typ wartości - 
+  "cars":["Chevy","Honda"],    //klucz to "cars", wartość ["Chevy","Honda"], typ wartości - array
+  "favoriteBook":{            //klucz to "favoriteBook", wartość, typ wartości - abject, w którym są zagnieżdżone:
+    "title":"The Last Kingdom",                  //klucz to "title", wartość ""The Last Kingdom" typ wartości - string,
+    "author":"Bernard COrnwell",                 //klucz to "author", wartość ""author", wartość " typ wartości - string,
+    "rating":8.38                                //klucz to "rating", wartość ""rating", wartość " typ wartości - number,
+  }
+}
+// Wyjaśnienie struktury JSON: 
+// Jest to reprezentacja obiektu w postaci ciągu. Klucze ujęte są w " " ,po dwukropku w kolejnym " " jest wartość.
+// W podanym przykładzie, w kluczu "favoriteBook", zagnieżdżone są "tittle", "author" i "rating", które tworzą obiekt. 
